@@ -1,0 +1,115 @@
+.navigation {
+    height: 60px;
+    color: black;
+}
+
+.left {
+    margin-left: 2px;
+    position: absolute;
+    height: 100%;
+    width: 26%;
+}
+
+.right {
+    left: 26%;
+    position: absolute;
+    height: 100%;
+    width: 75%;
+    margin-left: 8px;
+}
+
+body {
+    background-image: url(../Images/DSC_6281-2000x1200.jpg);
+    margin: 0;
+    padding: 0;
+    background-size: 100%;
+}
+
+img {
+    margin: 10px 0;
+    border-radius: 10px;
+    height: 240px;
+    width: 160px;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px greenyellow, 0 0 5px darkgreen;
+    font-size: 2rem;
+    margin: 0 0 10px 0;
+}
+
+p {
+    text-align: center;
+    font-size: 1.1rem;
+    color: beige;
+    display: inline;
+}
+
+h2 {
+    font-family: 'Sacramento', cursive;
+    color: #248ea9;
+    text-align: center;
+    margin: 0;
+    font-size: 2rem;
+}
+
+.picimg {
+    padding-left: 25%;
+}
+
+li {
+    list-style-type: none;
+}
+
+li a {
+    border: 2px solid blue;
+    margin: 2px 5px;
+    text-decoration: none;
+    padding: 10px;
+    float: left;
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: bolder;
+    color: #d7d6ee;
+}
+
+li a:hover {
+    background-color: #cbc4f1;
+    border-radius: 5px;
+    color: rgb(49, 45, 45);
+}
+
+ul {
+    height: 72px;
+    margin: 2px;
+    padding-left: 0;
+    width: 100%;
+    list-style-type: none;
+}
+
+h3 {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px red, 0 0 5px darkred;
+    margin: 10px 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+hr {
+    border: dotted rgba(238, 244, 245, 0.692) 6px;
+    border-bottom: none;
+    width: 5%;
+    margin: 10px auto;
+}
+
+label {
+    margin: 10px;
+    font-size: 1.2rem;
+    font-style: italic;
+    font-weight: bolder;
+    color: blanchedalmond;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}

@@ -1,0 +1,79 @@
+.bg-image {
+    background-image: url(../Images/big-one.jpg);
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    background-size: 100%;
+}
+
+
+/* h1 {
+    font-family: 'Sacramento', cursive;
+    font-weight: bolder;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(87, 141, 25), 0 0 5px rgb(10, 240, 87);
+    text-align: center;
+    margin-top: 0;
+    font-size: 3rem;
+} */
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px red, 0 0 5px darkred;
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 0;
+    font-size: 1.8rem;
+}
+
+fieldset {
+    margin-left: 25%;
+    height: 50%;
+    width: 600px;
+    padding-left: 50px;
+    border-radius: 10px;
+    margin-bottom: 20%;
+}
+
+label {
+    font-size: 1.4rem;
+    font-style: italic;
+    font-weight: bolder;
+    color: blanchedalmond;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+legend {
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 20%;
+    font-size: 1.6rem;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(90, 204, 233), 0 0 5px rgb(6, 105, 105);
+}
+
+p {
+    font-size: 1.1rem;
+    color: whitesmoke;
+}
+
+textarea {
+    border-radius: 10px;
+    opacity: 0.7;
+}
+
+input {
+    width: 32%;
+    border-radius: 10px;
+    opacity: 0.7;
+}
+
+input[type="submit"] {
+    opacity: 1;
+    width: 20%;
+    padding: 5px;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(192, 245, 48), 0 0 5px rgb(99, 121, 0);
+}

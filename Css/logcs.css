@@ -1,0 +1,71 @@
+body {
+    background-image: url(../Images/big-one.jpg);
+    background-size: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    text-align: center;
+    color: red;
+}
+
+h3 {
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px greenyellow, 0 0 5px green;
+    text-align: center;
+}
+
+legend {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(236, 143, 158), 0 0 5px purple;
+    font-family: 'Sacramento', cursive;
+    margin-left: 36%;
+    font-size: 1.2rem;
+}
+
+fieldset {
+    margin-left: 25%;
+    height: 300px;
+    width: 600px;
+    padding-left: 50px;
+    border-radius: 10px;
+}
+
+input {
+    position: absolute;
+    border-radius: 15px;
+    left: 300px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    height: 1.5rem;
+    width: 32%;
+}
+
+.row {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.log {
+    position: relative;
+}
+
+input[type="submit"] {
+    padding: 0 15px;
+    width: 20%;
+}
+
+label {
+    font-size: 1.2rem;
+    font-style: italic;
+    font-weight: bolder;
+    color: blanchedalmond;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}

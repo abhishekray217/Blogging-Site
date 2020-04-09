@@ -1,0 +1,87 @@
+body {
+    background-image: url(../Images/big-one.jpg);
+    background-size: 100%;
+}
+
+h3 {
+    color: #112F91;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+#po {
+    text-align: center;
+}
+
+h1 {
+    font-weight: bolder;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px red, 0 0 5px darkred;
+    text-align: center;
+}
+
+legend {
+    font-family: 'Sacramento', cursive;
+    margin-left: 36%;
+    font-size: 1.2rem;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(90, 204, 233), 0 0 5px rgb(6, 105, 105);
+}
+
+fieldset {
+    margin-left: 25%;
+    height: 100%;
+    width: 600px;
+    padding-left: 50px;
+    border-radius: 10px;
+}
+
+input {
+    position: absolute;
+    border-radius: 10px;
+    left: 300px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    height: 1.5rem;
+    width: 32%;
+}
+
+.row {
+    padding: 10px 0;
+}
+
+.log {
+    position: relative;
+}
+
+input[type="submit"] {
+    padding: 0 15px;
+    margin-top: 28px;
+    width: 20%;
+}
+
+input[type="reset"] {
+    padding: 0 15px;
+    margin-top: 8px;
+    width: 20%;
+}
+
+.rad {
+    margin-left: 50px;
+}
+
+label {
+    font-size: 1.2rem;
+    font-style: italic;
+    font-weight: bolder;
+    color: blanchedalmond;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+p {
+    text-align: center;
+    color: red;
+}
